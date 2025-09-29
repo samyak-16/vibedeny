@@ -1,0 +1,8 @@
+<svg width="220" height="56" viewBox="0 0 220 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="#06b6d4"/>
+    <circle cx="28" cy="28" r="18" fill="#fff"/>
+    <circle cx="28" cy="28" r="12" fill="#06b6d4"/>
+    <text x="70" y="40" font-family="Arial Black, Arial, sans-serif" font-size="36" fill="#22223b" font-weight="bold">Vibedemy</text>
+  </g>
+</svg>
