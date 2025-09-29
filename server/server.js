@@ -18,7 +18,13 @@ await connectDB();
 await connectCloudinay();
 
 // middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  })
+);
 app.use(clerkMiddleware());
 
 // Routes
